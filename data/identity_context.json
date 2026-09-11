@@ -1,0 +1,8 @@
+[
+  {"user":"fiona.admin","privileged":true,"enabled":true},
+  {"user":"dev.user","privileged":false,"enabled":true},
+  {"user":"svc.backup","privileged":true,"enabled":true},
+  {"user":"hr.user","privileged":false,"enabled":true},
+  {"user":"disabled.ops","privileged":false,"enabled":false},
+  {"user":"web.user","privileged":false,"enabled":true}
+]

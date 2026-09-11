@@ -1,0 +1,8 @@
+[
+  {"event_id":"evt-001","host":"FIN-WS-014","user":"fiona.admin","process":"diag-helper.exe","action":"process_access","target":"lsass.exe","approved_admin_tool":false,"access_succeeded":true,"edr_healthy":true,"asset_criticality":"high"},
+  {"event_id":"evt-002","host":"ENG-WS-021","user":"dev.user","process":"browser-maint.exe","action":"credential_store_access","target":"browser_store","approved_admin_tool":false,"access_succeeded":true,"edr_healthy":true,"asset_criticality":"medium"},
+  {"event_id":"evt-003","host":"DC-LAB-01","user":"svc.backup","process":"backup-agent.exe","action":"registry_access","target":"sam_system","approved_admin_tool":true,"access_succeeded":true,"edr_healthy":true,"asset_criticality":"critical"},
+  {"event_id":"evt-004","host":"HR-WS-007","user":"hr.user","process":"inventory-tool.exe","action":"credential_manager_enum","target":"windows_credential_manager","approved_admin_tool":false,"access_succeeded":false,"edr_healthy":false,"asset_criticality":"medium"},
+  {"event_id":"evt-005","host":"OPS-WS-003","user":"disabled.ops","process":"unknown-helper.exe","action":"process_access","target":"lsass.exe","approved_admin_tool":false,"access_succeeded":false,"edr_healthy":true,"asset_criticality":"low"},
+  {"event_id":"evt-006","host":"WEB-LAB-02","user":"web.user","process":"app.exe","action":"file_read","target":"config","approved_admin_tool":false,"access_succeeded":true,"edr_healthy":true,"asset_criticality":"high"}
+]
